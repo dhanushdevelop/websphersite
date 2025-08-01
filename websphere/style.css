@@ -1,0 +1,58 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #1a237e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  color: #374151;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.card {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  border: none;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 4px 24px 0 rgba(60, 72, 88, 0.12), 0 1.5px 4px 0 rgba(60, 72, 88, 0.08);
+  transition: box-shadow 0.2s;
+}
+
+.card p:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 95vw;
+    padding: 1rem 0.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

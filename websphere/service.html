@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Websphere and Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0a0a12 0%, #232946 100%);
+            color: #f1f1f3;
+        }
+        .nav-link {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .nav-link:hover {
+            color: #00f0ff;
+        }
+        .nav {
+            background: rgba(10,10,18,0.9);
+            padding: 1.2rem 0;
+            text-align: center;
+            border-bottom: 1px solid #232946;
+        }
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: rgba(30,34,54,0.95);
+            border-radius: 18px;
+            box-shadow: 0 4px 24px 0 rgba(60, 72, 88, 0.12), 0 1.5px 4px 0 rgba(60, 72, 88, 0.08);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #00f0ff;
+            font-family: 'Orbitron', 'Segoe UI', sans-serif;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+        }
+        .service-card {
+            background: #181c2b;
+            border-radius: 14px;
+            padding: 2rem 1.2rem;
+            box-shadow: 0 2px 12px 0 rgba(60, 72, 88, 0.10);
+            text-align: left;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-6px) scale(1.03);
+            box-shadow: 0 8px 32px 0 rgba(0, 240, 255, 0.10);
+        }
+        .service-card h3 {
+            color: #5773ff;
+            margin-bottom: 0.7rem;
+            font-size: 1.3rem;
+        }
+        .service-card ul {
+            color: #bfc9d9;
+            font-size: 1rem;
+            margin-left: 1.2rem;
+        }
+        .back-link {
+            display: block;
+            margin: 2rem auto 0 auto;
+            text-align: center;
+            color: #00f0ff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        .back-link:hover {
+            color: #ff007a;
+        }
+        .audiowide-font {
+            font-family: 'Audiowide', cursive !important;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index (1).html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+        <a href="service.html" class="nav-link" style="color:#00f0ff;">Services</a>
+    </nav>
+    <div class="container">
+        <h1>Our Services</h1>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>Fast, secure, responsive</li>
+                    <li>SEO & mobile optimized</li>
+                    <li>Built with modern frameworks</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>CRM Development</h3>
+                <ul>
+                    <li>Track leads & contacts</li>
+                    <li>Automate communication</li>
+                    <li>Dashboard with real-time insights</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>Custom CMS Dashboards</h3>
+                <ul>
+                    <li>Add or update content & images</li>
+                    <li>User access control</li>
+                    <li>Real-time previews and publishing</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>AI Chatbot Development</h3>
+                <ul>
+                    <li>Automate support & inquiries</li>
+                    <li>Personalized interactions</li>
+                    <li>Easy website or CRM integration</li>
+                </ul>
+            </div>
+        </div>
+        <a href="index (1).html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    </div>
+</body>
+</html> 
